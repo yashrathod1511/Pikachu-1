@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+.container {
+    height: 97%;
+    display: flex;
+}
+
+.leftbox {
+    margin: 20px 0px 30px 20px;
+    height: 98%;
+    width: 75%;
+    background-color: #FBC90D;
+    position: relative;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.rightbox {
+    margin: 20px 20px 20px 0px;
+    height: 98%;
+    width: 50%;
+    background-color: #FAE8B3;
+    position: relative;
+    border-radius: 0px 25px 25px 0px;
+}
+
+.pika {
+    position: absolute;
+    top: 50%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+    height: 650px;
+    width: 650px;
+}
+
+.pokologo {
+    position: absolute;
+    left: 40px;
+    height: 150px;
+    width: 130px;
+}
+
+.pokoball {
+    position: absolute;
+    height: 166px;
+    bottom: 0;
+    left: 30px;
+}
+
+h2 {
+    position: absolute;
+    bottom: 25%;
+    left: 90px;
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.intro {
+    position: absolute;
+    top: 54%;
+    left: 90px;
+}
+
+h1 {
+    position: absolute;
+    top: 40%;
+    left: 87px;
+    font-size: 80px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+
+.gen {
+    position: absolute;
+    top: 34%;
+    left: 90px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+.menulines {
+    position: absolute;
+    top: 40px;
+    right: 40px;
+}
+
+.menulines span {
+    display: block;
+    height: 3px;
+    width: 30px;
+    gap: 5px;
+    background-color: black;
+    margin-bottom: 7px;
+    font-weight: 700;
+}
+
+.Dotcontainer {
+    position: absolute;
+    top: 40%;
+    right: 40px;
+    
+}
+
+.Dotcontainer div {
+    display: block;
+    width: 13px;
+    height: 13px;
+    background-color: #FBC90D;
+    gap: 20px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+.Dotcontainer div:first-child {
+    background-color: black;
+}
